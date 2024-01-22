@@ -16,7 +16,7 @@ export default function LandingPage() {
 
             <div style={{height:"1rem"}}></div>
 
-            <p style={{fontSize:"1rem"}}>Achieve your <strong>career goals</strong>  faster with expert guidance from our powerful AI toolset.</p>
+            <p style={{fontSize:"1.25rem"}}>Achieve your <strong>career goals</strong>  faster with expert guidance from our powerful AI toolset.</p>
                 
             <div className='access-btn'>
 

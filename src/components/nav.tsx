@@ -14,7 +14,7 @@ export default function Nav(){
 
             <div style={{marginRight:"2rem"}}>
 
-                <button className='btn'><a href='#access'>Early Access</a></button>
+            <a href='#access'><button className='white btn'>Early Access</button></a>
 
             </div>
 

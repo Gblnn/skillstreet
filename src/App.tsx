@@ -51,7 +51,7 @@ function App() {
 
       <p className='desc'>SkillBee is an <strong>AI-powered tool</strong>  created by Skill Street to accelerate your career guidance needs. Through sophisticated algorithms and real-time market analysis, SkillBee identifies your unique strengths, passions, and potential growth areas, offering tailored career recommendations that align with your aspirations and goals.</p>
 
-      <button style={{marginTop:"4rem", zIndex:10}} className='btn'><a href='#access'>Join BETA</a></button>
+      <a href='#access'><button style={{marginTop:"2.5rem", zIndex:10}} className='btn'>Join BETA</button></a>
 
     </div>
 
@@ -77,7 +77,7 @@ function App() {
 <h1 className='subheading' style={{fontSize:"2rem", color:"var(--color)"}}>Build with Skill Street</h1>
 </div>
 <div style={{height:"1rem"}}></div>
-<p className='desc' style={{fontSize:""}}>We are launching SkillBee Beta! Join as a Beta user and get access to the latest and unreleased Features. We are open to contributors</p>
+<p className='desc' style={{fontSize:""}}>We are launching SkillBee Beta! Join as a Beta user and get access to our latest and unreleased Features. We are open to contributors</p>
 <div className=''>
 
 <div style={{border:"1px solid #623cb6",marginTop:"2rem", display:"flex", justifyContent:"space-between", padding:"0.5rem", borderRadius:"0.75rem"}}>

@@ -30,6 +30,11 @@
   box-shadow: 1px 1px 20px #623cb6;
 }
 
+.white {
+  color: #ad87ff;
+  background-color: #1a1a1a;
+}
+
 .heading {
   font-size: 2.75rem;
   transition: 0.5s;
