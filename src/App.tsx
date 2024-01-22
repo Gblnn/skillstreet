@@ -5,6 +5,7 @@ import './styles/style.css';
 import './styles/utils.css';
 import Nav from './components/nav';
 import LandingPage from './components/landing-page';
+import { ConfigProvider, FloatButton, theme } from 'antd';
 
 function App() {
 
@@ -109,6 +110,8 @@ function App() {
       
     {/* <p>Revolutionizing careers.</p> */}
     </div>
+
+    
     
     
     
@@ -118,6 +121,10 @@ function App() {
 </div>
       </div>
     </div>
+    <ConfigProvider theme={{algorithm:theme.darkAlgorithm}}>
+    <FloatButton.BackTop shape='square'/>
+    </ConfigProvider>
+    
     </>
   )
 }
