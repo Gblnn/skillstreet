@@ -8,7 +8,7 @@ export default function Nav(){
             <div style={{display:"flex", marginLeft:"1.5rem", alignItems:"center", gap:"0.5rem"}}>
 
                 <img src='/logo.webp' style={{width:"2rem"}}/>
-                <p color='var(--color)' className='title'>Skill Street</p>
+                <p color='white' className='title'>Skill Street</p>
 
             </div>
 
