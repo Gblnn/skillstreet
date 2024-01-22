@@ -75,6 +75,10 @@
   font-size: 1.1rem;
 }
 
+.skillbee {
+  margin-top: 40rem;
+}
+
 /* @media (width >= 678px) {
   .container {
     width: 678px;
@@ -109,5 +113,8 @@
     width: 55%;
     font-size: 1.2rem;
     text-align: center;
+  }
+  .skillbee {
+    margin-top: 62rem;
   }
 }
