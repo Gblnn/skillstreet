@@ -10,8 +10,11 @@ function App() {
 
   return (
     <>
+    
     <div className='container' style={{display:"flex", height:"fit-content", flexFlow:"column", justifyContent:"center"}}>
+      
       <div className='main'>
+      <div style={{position:"absolute", top:-100 ,zIndex:"100", boxShadow:"40px 40px 1000px #623cb6", width:"100%", height:"5rem", border:""}}></div>
       <Nav/>
 
 <div className='page'>
