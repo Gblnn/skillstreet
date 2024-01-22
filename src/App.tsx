@@ -17,13 +17,14 @@ function App() {
       <div className='page'>
 
         <LandingPage/>
-        <img className='bg' style={{width:"100%", position:"absolute", zIndex:-1}} src="/phone.webp"/>
+        <img  className='bg' style={{width:"100%", position:"absolute", zIndex:-1}} src="/phone.webp"/>
         
       </div>
-
+      <div style={{position:"absolute", marginTop:"60rem"}} id='skillbee'></div>
       <div className='page' style={{marginTop:"35%",height:"fit-content", border:"", flexFlow:"column"}}>
 
         <motion.div
+        
         variants={{
           hidden:{opacity:0, y:75},
           visible:{opacity:1, y:0},
@@ -37,7 +38,7 @@ function App() {
           <div style={{width:"75%", border:"", display:"flex", justifyContent:"center"}}>
             
             <div style={{border:"", width:"100%"}}>
-              <h1 className='subheading'>Introducing SkillBee <strong>•</strong></h1>
+              <h1  className='subheading'>Introducing SkillBee <strong>•</strong></h1>
             </div>
           
             
@@ -47,6 +48,8 @@ function App() {
           <div style={{height:"15rem", border:"", width:"75%", marginTop:"1.5rem", display:"flex", alignItems:"center", flexFlow:"column"}}>
 
             <p className='desc'>SkillBee is an <strong>AI-powered tool</strong>  created by Skill Street to accelerate your career guidance needs. Through sophisticated algorithms and real-time market analysis, SkillBee identifies your unique strengths, passions, and potential growth areas, offering tailored career recommendations that align with your aspirations and goals.</p>
+
+            <button style={{marginTop:"4rem", zIndex:10}} className='btn'>Join BETA</button>
 
           </div>
 

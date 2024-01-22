@@ -20,8 +20,8 @@ export default function LandingPage() {
                 
             <div className='access-btn'>
 
-                <a href='#access'>
-                    <button style={{marginTop:"2rem"}} className='btn'>Get Early Access </button>
+                <a href='#skillbee'>
+                    <button style={{marginTop:"2rem"}} className='btn'>Learn More</button>
                 </a>
 
             </div>
