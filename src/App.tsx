@@ -51,7 +51,7 @@ function App() {
 
       <p className='desc'>SkillBee is an <strong>AI-powered tool</strong>  created by Skill Street to accelerate your career guidance needs. Through sophisticated algorithms and real-time market analysis, SkillBee identifies your unique strengths, passions, and potential growth areas, offering tailored career recommendations that align with your aspirations and goals.</p>
 
-      <a href='#access'><button style={{marginTop:"2.5rem", zIndex:10}} className='btn'>Join BETA</button></a>
+      <a href='#access'><button style={{marginTop:"2.5rem", zIndex:10}} className='btn'>Join <b>BETA</b></button></a>
 
     </div>
 
