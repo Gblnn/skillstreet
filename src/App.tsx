@@ -85,7 +85,7 @@ function App() {
 </div>
       </div>
       <div style={{height:"0rem"}}></div>
-      <div style={{width:"100%", background:"#0c0617"}}>
+      <div style={{width:"100%", background:"#180c2e"}}>
         <div style={{padding:"2rem"}}>
           
           
