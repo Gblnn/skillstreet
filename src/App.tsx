@@ -14,7 +14,7 @@ function App() {
     <div className='container' style={{display:"flex", height:"fit-content", flexFlow:"column", justifyContent:"center"}}>
       
       <div className='main'>
-      <div style={{position:"absolute", top:-100 ,zIndex:"1", boxShadow:"40px 40px 1000px #8954ff", width:"100%", height:"5rem", border:""}}></div>
+      <div style={{position:"absolute", top:"-5rem" ,zIndex:"1", boxShadow:"40px 40px 1000px #8954ff", width:"100%", height:"5rem", border:""}}></div>
       <Nav/>
 
 <div className='page'>
