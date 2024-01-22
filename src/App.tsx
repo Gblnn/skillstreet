@@ -56,7 +56,7 @@ function App() {
       </div>
       <div className='page' style={{border:"", height:"fit-content", paddingTop:"1rem", paddingBlock:"1rem", flexFlow:"column", marginTop:"8rem"}}>
 
-        <p style={{opacity:0.5}}>-No Changes to Scroll Timeline-</p>
+        <p style={{opacity:0.5, zIndex:-1}}>-No Changes to Scroll Timeline-</p>
         
       </div>
       <div id="access" className='page'>
