@@ -34,10 +34,10 @@ function App() {
         whileInView="visible"
         style={{zIndex:-1,width:"100%", border:"", display:'flex', alignItems:"center", flexFlow:"column"}}>
 
-          `<div style={{width:"75%", border:"", display:"flex", justifyContent:"center"}}>
+          <div style={{width:"75%", border:"", display:"flex", justifyContent:"center"}}>
             
             <div style={{border:"", width:"100%"}}>
-              <h1 className='subheading'>Introducing SkillBee <strong>•</strong> </h1><h1></h1>
+              <h1 className='subheading'>Introducing SkillBee <strong>•</strong></h1>
             </div>
           
             
