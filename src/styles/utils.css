@@ -1,6 +1,6 @@
 .nav {
   background-color: var(--nav-color);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(8px);
 }
 
 .container {
