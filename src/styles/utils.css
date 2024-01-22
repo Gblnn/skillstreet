@@ -76,7 +76,7 @@
 }
 
 .skillbee {
-  margin-top: 40rem;
+  border: 1px solid;
 }
 
 /* @media (width >= 678px) {
@@ -115,6 +115,6 @@
     text-align: center;
   }
   .skillbee {
-    margin-top: 62rem;
+    margin-top: 18rem;
   }
 }
