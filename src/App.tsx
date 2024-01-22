@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-    <div style={{display:"flex", width:"100%", height:"fit-content", flexFlow:"column"}}>
+    <div className='container' style={{display:"flex", height:"fit-content", flexFlow:"column"}}>
 
       <Nav/>
 
