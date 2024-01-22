@@ -3,6 +3,8 @@ import { LucideMail } from 'lucide-react';
 import 'react-vertical-timeline-component/style.min.css';
 import './styles/style.css';
 import './styles/utils.css';
+import Nav from './components/nav';
+import LandingPage from './components/landing-page';
 
 function App() {
 
@@ -10,50 +12,17 @@ function App() {
     <>
     <div style={{display:"flex", width:"100%", height:"fit-content", flexFlow:"column"}}>
 
-      <div className='nav' style={{position:"fixed",display:"flex", justifyContent:"space-between",alignItems:"center", width:"100%", height:"5rem", border:""}}>
-
-        <div style={{display:"flex", marginLeft:"1.5rem", alignItems:"center", gap:"0.5rem"}}>
-
-          <img src='/logo.webp' style={{width:"2rem"}}/>
-          <p color='var(--color)' className='title'>Skill Street</p>
-
-        </div>
-
-        <div style={{marginRight:"2rem"}}>
-
-          <button className='btn'><a href='#access'>Early Access</a></button>
-
-        </div>
-        
-      </div>
+      <Nav/>
 
       <div className='page'>
-        <div style={{border:"", display:"flex", flexFlow:"column", gap:"0.5rem", width:"75%", alignItems:"center", justifyContent:"center"}}>
 
-          <div style={{display:"flex", flexFlow:"column", gap:"1rem"}}>
-
-            <div className='tag-container' style={{border:"", display:"flex"}}>
-              <p className='tag' style={{color:"goldenrod", background:"rgba(218 165 32/ 15%)", width:"fit-content", borderRadius:"1rem", padding:"0.25rem", paddingLeft:"0.75rem", paddingRight:"0.75rem"}}> Launching Soon </p>
-            </div>
-          
-          
-          <h1 style={{color:""}} className='heading'>Reach your goals faster</h1>
-          </div>
-          <div style={{height:"1rem"}}></div>
-          <p style={{fontSize:"1rem"}}>Achieve your <strong>career goals</strong>  faster with expert guidance from our powerful AI toolset.</p>
-          <div className='access-btn'>
-            <a href='#access'>
-            <button style={{marginTop:"2rem"}} className='btn'>Get Early Access </button>
-            </a>
-          
-          </div>
-          
-        </div>
-        
-          <img className='bg' style={{width:"100%", position:"absolute", zIndex:-1}} src="/phone.webp"/>
+        <LandingPage/>
+        <img className='bg' style={{width:"100%", position:"absolute", zIndex:-1}} src="/phone.webp"/>
         
       </div>
+
       <div className='page' style={{marginTop:"35%",height:"fit-content", border:"", flexFlow:"column"}}>
+
         <motion.div
         variants={{
           hidden:{opacity:0, y:75},
@@ -65,24 +34,27 @@ function App() {
         whileInView="visible"
         style={{zIndex:-1,width:"100%", border:"", display:'flex', alignItems:"center", flexFlow:"column"}}>
 
-        <div style={{width:"75%", border:"", display:"flex", justifyContent:"center"}}>
+          `<div style={{width:"75%", border:"", display:"flex", justifyContent:"center"}}>
+            
+            <div style={{border:"", width:"100%"}}>
+              <h1 className='subheading'>Introducing SkillBee <strong>•</strong> </h1><h1></h1>
+            </div>
           
-          <div style={{border:"", width:"100%"}}>
-            <h1 className='subheading'>Introducing SkillBee <strong>•</strong> </h1><h1></h1>
+            
+            
+            
           </div>
-        
-          
-          
-          
-        </div>
-        <div style={{height:"15rem", border:"", width:"75%", marginTop:"1.5rem", display:"flex", alignItems:"center", flexFlow:"column"}}>
-        <p className='desc'>SkillBee is an <strong>AI-powered tool</strong>  created by Skill Street to accelerate your career guidance needs. Through sophisticated algorithms and real-time market analysis, SkillBee identifies your unique strengths, passions, and potential growth areas, offering tailored career recommendations that align with your aspirations and goals.</p>
-        </div>
+          <div style={{height:"15rem", border:"", width:"75%", marginTop:"1.5rem", display:"flex", alignItems:"center", flexFlow:"column"}}>
+
+            <p className='desc'>SkillBee is an <strong>AI-powered tool</strong>  created by Skill Street to accelerate your career guidance needs. Through sophisticated algorithms and real-time market analysis, SkillBee identifies your unique strengths, passions, and potential growth areas, offering tailored career recommendations that align with your aspirations and goals.</p>
+
+          </div>
+
         </motion.div>
         
         
       </div>
-      <div className='page' style={{border:"", height:"fit-content", paddingTop:"1rem", paddingBlock:"1rem", flexFlow:"column", marginTop:"4rem"}}>
+      <div className='page' style={{border:"", height:"fit-content", paddingTop:"1rem", paddingBlock:"1rem", flexFlow:"column", marginTop:"8rem"}}>
 
         <p>-No Changes to Scroll Timeline-</p>
         
