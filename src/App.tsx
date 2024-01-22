@@ -14,7 +14,7 @@ function App() {
     <div className='container' style={{display:"flex", height:"fit-content", flexFlow:"column", justifyContent:"center"}}>
       
       <div className='main'>
-      <div style={{position:"absolute", top:-100 ,zIndex:"100", boxShadow:"40px 40px 1000px #623cb6", width:"100%", height:"5rem", border:""}}></div>
+      <div style={{position:"absolute", top:-100 ,zIndex:"1", boxShadow:"40px 40px 1000px #623cb6", width:"100%", height:"5rem", border:""}}></div>
       <Nav/>
 
 <div className='page'>
@@ -80,7 +80,7 @@ function App() {
 <h1 className='subheading' style={{fontSize:"2rem", color:"var(--color)"}}>Build with Skill Street</h1>
 </div>
 <div style={{height:"1rem"}}></div>
-<p className='desc' style={{fontSize:""}}>We are launching SkillBee Beta! Join as a Beta user and get access to our latest and unreleased Features. We are open to contributors</p>
+<p className='desc' style={{fontSize:""}}>We are launching <strong>SkillBee Beta</strong>. Join as a Beta user and get access to our latest and unreleased Features. We are open to contributors</p>
 <div className=''>
 
 <div style={{border:"1px solid #623cb6",marginTop:"2rem", display:"flex", justifyContent:"space-between", padding:"0.5rem", borderRadius:"0.75rem"}}>
