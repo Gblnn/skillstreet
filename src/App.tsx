@@ -73,7 +73,7 @@ function App() {
 </div>
 <div style={{height:"1rem"}}></div>
 <p className='desc' style={{fontSize:""}}>We are launching SkillBee Beta! Join as a Beta user and get access to the latest and unreleased Features. We are open to contributors</p>
-<div className='access-btn'>
+<div className=''>
 
   <div style={{border:"1px solid #623cb6",marginTop:"2rem", display:"flex", justifyContent:"space-between", padding:"0.5rem", borderRadius:"0.75rem"}}>
     <input style={{border:"none", background:"none"}} type='email' placeholder='Email Address'></input>

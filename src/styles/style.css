@@ -52,6 +52,7 @@ input {
   background-color: var(--nav-color);
   border: 1px solid rgba(120 120 120 /40%);
   font-size: 1rem;
+  width: 100%;
 }
 
 input::placeholder {
@@ -184,6 +185,9 @@ input:focus {
     padding-right: 10rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
+  }
+  input {
+    width: 16rem;
   }
 }
 
